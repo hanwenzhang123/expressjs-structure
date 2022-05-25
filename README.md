@@ -1,4 +1,5 @@
 # EexpressJS Structure
+https://blog.logrocket.com/organizing-express-js-project-structure-better-productivity/
 
 # src folder
 - houses the source code
