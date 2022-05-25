@@ -1,6 +1,25 @@
 # EexpressJS Structure
 https://blog.logrocket.com/organizing-express-js-project-structure-better-productivity/
 
+
+# others
+## .env
+- .env file to keep the secrets safe and different per deployment environment
+
+## resource
+https://scoutapm.com/blog/nodejs-architecture-and-12-best-practices-for-nodejs-development
+```
+src
+  ├── app.js			app entry point
+  ├── /api			controller layer: api routes
+  ├── /config			config settings, env variables
+  ├── /services		service layer: business logic
+  ├── /models			data access layer: database models	
+  ├── /scripts		miscellaneous NPM scripts
+  ├── /subscribers		async event handlers
+  └── /test               test suites
+```
+
 # src folder
 - houses the source code
 
@@ -53,9 +72,4 @@ https://blog.logrocket.com/organizing-express-js-project-structure-better-produc
 ## integration
 - integration tests.
 
-
-# others
-## .env
-- .env file to keep the secrets safe and different per deployment environment
-
-
+ 
