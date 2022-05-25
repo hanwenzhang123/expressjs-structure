@@ -1,4 +1,4 @@
-# expressjs-structure
+# EexpressJS Structure
 
 # src folder
 - houses the source code
